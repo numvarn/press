@@ -58,4 +58,4 @@ class Article(models.Model):
 
 ## Screen Shot
 
-![image]("https://github.com/numvarn/press/blob/main/statics/thumbnails/001.png")
+![image](https://github.com/numvarn/press/blob/main/statics/thumbnails/001.png)
