@@ -3,7 +3,9 @@
 ## โดย
 
 ผู้ช่วยศาสตราจารย์พิศาล สุขขี
+
 สาขาวิทยาการคอมพิวเตอร์
+
 มหาวิทยาลัยราชภัฏศรีสะเกษ
 
 ## โมเดล
@@ -53,3 +55,7 @@ class Article(models.Model):
         """Unicode representation of Article."""
         return self.title
 ```
+
+## Screen Shot
+
+(!image)["./statics/thumbnails/001.png"]
