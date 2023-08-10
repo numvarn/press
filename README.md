@@ -14,6 +14,8 @@
 โดยกำหนดให้ Author สามารถเขียนบทความ (Article) ได้หลายบทความ แต่
 บทความ 1 บทความ สามารถมีผู้เขียนได้แค่ 1 คนเท่านั้น
 
+![image](https://github.com/numvarn/press/blob/main/statics/thumbnails/idea.jpg)
+
 ```python
 class Author(models.Model):
     """Model definition for Author."""
