@@ -58,6 +58,6 @@ class Article(models.Model):
 
 ## Screen Shot
 
-(!image)["./statics/thumbnails/001.png"]
+(!image)["/statics/thumbnails/001.png"]
 
 <kbd>![font page]("./statics/thumbnails/001.png")</kbd>
