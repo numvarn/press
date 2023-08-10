@@ -60,4 +60,4 @@ class Article(models.Model):
 
 (!image)["/statics/thumbnails/001.png"]
 
-<kbd>![font page]("./statics/thumbnails/001.png")</kbd>
+<kbd>![001]("https://github.com/numvarn/press/blob/main/statics/thumbnails/001.png?raw=true")</kbd>
