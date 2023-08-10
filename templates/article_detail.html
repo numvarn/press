@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+<!---->
+{% block content %}
+
+<div class="row">
+  <div class="col-12">
+    <table class="table">
+      <tbody>
+        <tr>
+          <th scope="col" class="publish_td">Title</th>
+          <td scope="col">{{ article.title }}</td>
+        </tr>
+        <tr>
+          <th scope="col">publish date</th>
+          <td scope="col">{{ article.date_created }}</td>
+        </tr>
+        <tr>
+          <th scope="col">detail</th>
+          <td scope="col">{{ article.detail }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock content %}

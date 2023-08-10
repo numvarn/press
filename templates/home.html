@@ -36,7 +36,7 @@
         {% for article in articles %}
         <tr>
           <th scope="row">{{ forloop.counter }}</th>
-          <td>{{ article.title }}</td>
+          <td><a href="{% url 'detail' article.id %}">{{ article.title }}</a></td>
           <td class="author_td">{{ article.author }}</td>
           <td class="publish_td">{{ article.date_created }}</td>
         </tr>
