@@ -58,8 +58,4 @@ class Article(models.Model):
 
 ## Screen Shot
 
-(!image)[statics/thumbnails/001.png]
-
 ![image]("./statics/thumbnails/001.png")
-
-<kbd>![001]("https://github.com/numvarn/press/blob/main/statics/thumbnails/001.png?raw=true")</kbd>
