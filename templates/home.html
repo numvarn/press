@@ -37,7 +37,7 @@
         <tr>
           <th scope="row">{{ forloop.counter }}</th>
           <td><a href="{% url 'detail' article.id %}">{{ article.title }}</a></td>
-          <td class="author_td">{{ article.author }}</td>
+          <td class="author_td"><a href="{% url 'author_detail' article.author.id %}">{{ article.author }}</a></td>
           <td class="publish_td">{{ article.date_created }}</td>
         </tr>
         {% endfor %}
