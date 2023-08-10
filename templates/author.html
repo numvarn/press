@@ -11,6 +11,7 @@
           <th scope="col">Prefix</th>
           <th scope="col">First</th>
           <th scope="col">Last</th>
+          <th scope="col">Ariticles</th>
         </tr>
       </thead>
       <tbody>
@@ -20,6 +21,7 @@
           <td>{{ author.prefix_str }}</td>
           <td>{{ author.first_name }}</td>
           <td>{{ author.last_name }}</td>
+          <td>{{ author.count }}</td>
         </tr>
         {% endfor %}
       </tbody>

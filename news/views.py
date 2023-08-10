@@ -7,6 +7,8 @@ from . import models
 def home(request):
     context = {}
     context['articles'] = models.Article.objects.all().order_by('id')
+    context['articles_count'] = models.Article.objects.all().count()
+    context['authors_count'] = models.Author.objects.all().count()
 
     return render(request, 'home.html', context)
 
@@ -17,6 +19,7 @@ def author(request):
     for author in authors:
         author.prefix_str = getModelChoices(
             author.prefix, models.name_prefix_choice)
+        author.count = models.Article.objects.filter(author=author).count()
 
     context['authors'] = authors
     return render(request, 'author.html', context)
@@ -34,6 +37,9 @@ def author_detail(request, id):
     context = {}
     authors = models.Author.objects.filter(id=id)
     for author in authors:
+        author.prefix_str = getModelChoices(
+            author.prefix, models.name_prefix_choice)
+
         context['author'] = author
         context['articles'] = models.Article.objects.filter(author=author)
 
