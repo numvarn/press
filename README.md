@@ -56,6 +56,14 @@ class Article(models.Model):
         return self.title
 ```
 
-## Screen Shot
+## Screen Capture
 
 ![image](https://github.com/numvarn/press/blob/main/statics/thumbnails/001.png)
+
+![image](https://github.com/numvarn/press/blob/main/statics/thumbnails/002.png)
+
+![image](https://github.com/numvarn/press/blob/main/statics/thumbnails/003.png)
+
+![image](https://github.com/numvarn/press/blob/main/statics/thumbnails/004.png)
+
+![image](https://github.com/numvarn/press/blob/main/statics/thumbnails/005.png)
