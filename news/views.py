@@ -4,8 +4,8 @@ from django.shortcuts import render, HttpResponse
 
 
 def home(request):
-    return HttpResponse("Home Page")
+    return render(request, 'home.html')
 
 
 def author(request):
-    return HttpResponse("Author page")
+    return render(request, 'author.html')
