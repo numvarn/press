@@ -79,10 +79,10 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
-        'USER': 'postgres',
+        'NAME': 'press_db',
+        'USER': 'press',
         'PASSWORD': 'numvarnSc28152456',
-        'HOST': 'db.jgmamafuatavzigaejvk.supabase.co',
+        'HOST': 'localhost',
         'PORT': '',
     }
 }
