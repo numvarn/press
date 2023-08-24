@@ -1,0 +1,251 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "news",
+        "model": "article"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "news",
+        "model": "author"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "klplyzoqeillg36z8tuz73cwm4in2b7t",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCGFgGX7nsGMjOAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hjuIiQJx-N0J-pLqDeMd6a5JbXZeZ5K7Ig3Y5tZie18P9OyjYy7c2GWkcjTM5eW-BNCOg8RBHPiOpTNGBtYYhqwycYXBJsaJoibXWA4n3B_cfOHo:1qTwIG:jDpKV0J1qqnNT6mCpAFm5SKbunR729RXGHC4s5tGSts",
+        "expire_date": "2023-08-24T03:25:00.155Z"
+    }
+},
+{
+    "model": "news.author",
+    "pk": 1,
+    "fields": {
+        "prefix": 1,
+        "first_name": "พิศาล",
+        "last_name": "สุขขี"
+    }
+},
+{
+    "model": "news.author",
+    "pk": 2,
+    "fields": {
+        "prefix": 1,
+        "first_name": "ปรีชา",
+        "last_name": "ไชยนะรา"
+    }
+},
+{
+    "model": "news.article",
+    "pk": 1,
+    "fields": {
+        "author": 2,
+        "title": "สถานทูตเตือนคนไทยในเกาหลีใต้ระวัง คนร้ายขู่ฆาตกรรมเลียนแบบ ดับแล้ว 2 ศพ เจ็บเพียบ",
+        "detail": "(9 ส.ค.66) ผู้สื่อข่าวรายงานว่า สถานทูตไทยในกรุงโซล ออกประกาศเตือนคนไทยที่จะเดินทางไปเกาหลีใต้ในช่วงนี้ ให้ระมัดระวังการก่ออาชญากรรมเลียนแบบในเกาหลีใต้ เมื่อวันที่ 7 ส.ค.ระบุว่า ตามที่ในระยะนี้มีเหตุการณ์ผู้ร้ายโจมตีบุคคลอื่นโดยใช้มีด โดยเหตุการณ์แรกเกิดขึ้นเมื่อวันที่ 21 กรกฎาคม 2566 ที่บริเวณใกล้สถานีรถไฟ Sillim กรุงโซล เป็นเหตุให้มีผู้เสียชีวิต 1 ราย และบาดเจ็บอีก 3 ราย\r\n\r\nและต่อมาเมื่อวันที่ 3 สิงหาคม 2566 มีผู้ก่อเหตุโจมตีบุคคลอื่น โดยขับรถพุ่งชนและใช้มีดแทงที่บริเวณห้างสรรพสินค้าแห่งหนึ่ง ที่เมืองซองนัม จังหวัดคยองกี เป็นเหตุให้มีผู้เสียชีวิต 1 ราย บาดเจ็บ 13 ราย\r\n\r\nล่าสุด ทางการตำรวจของสาธารณรัฐเกาหลี ได้เปิดเผยเมื่อวันที่ 6 สิงหาคม 2566 เพิ่มเติมว่า ทางตำรวจกำลังสืบสวนบุคคลต้องสงสัยจำนวน 46 คน ที่ได้โพสต์ข้อความข่มขู่ว่า จะฆาตกรรมบุคคลอื่นในสถานที่ต่างๆ ซึ่งส่วนใหญ่อยู่ในกรุงโซล ในลักษณะการก่ออาชญากรรมเลียนแบบ\r\n\r\nสถานทูตไทยในกรุงโซลขอแนะนำคนไทยในเกาหลีใต้ ดังนี้",
+        "date_created": "2023-08-10T03:56:36.729Z",
+        "date_updated": "2023-08-10T04:32:25.445Z"
+    }
+},
+{
+    "model": "news.article",
+    "pk": 2,
+    "fields": {
+        "author": 1,
+        "title": "อุ๊งอิ๊ง แพทองธาร ชินวัตร ทายาท ทักษิณ กับพอร์ตหุ้นที่รวยระดับมโหฬาร",
+        "detail": "ส่องพอร์ตหุ้น \"อุ๊งอิ๊ง แพทองธาร ชินวัตร\" ทายาทของนายทักษิณ ชินวัตร อดีตนายกรัฐมนตรี พบมีมูลค่าหุ้นมีมากถึงหมื่นล้าน\r\n\r\nอุ๊งอิ๊ง แพทองธาร ชินวัตร ลูกสาวของ นายทักษิณ ชินวัตร อดีตนายกรัฐมนตรีของไทย แถมเป็นถึงผู้บริหารธุรกิจอสังหาริมทรัพย์ และธุรกิจโรงแรมชื่อดังของไทย เช่น โรงแรมโรสวูด กรุงเทพฯ โรงแรม เทมส์ วัลลีย์ เขาใหญ่ สนามกอล์ฟอัลไพน์ โรงแรมเอสซี ปาร์ค เป็นต้น อยากรู้มั้ย อุ๊งอิ๊ง แพทองธาร ชินวัตร รวยขนาดไหนไปส่องพอร์ตหุ้นพร้อมๆ กัน\r\n\r\nSanook Money ได้ตรวจสอบข้อมูลจาก Creden Data ที่รวบรวมรายชื่อบริษัทของ อุ๊งอิ๊ง แพทองธาร ชินวัตร จากฐานข้อมูลกรมพัฒนาธุรกิจการค้า กระทรวงพาณิชย์ ผ่านระบบวิเคราะห์ข้อมูลบริษัทครบวงจรของ Creden Data พบว่า อุ๊งอิ๊ง แพทองธาร ชินวัตร ทายาทของ นายทักษิณ ชินวัตร นั่งเป็นกรรมการบริษัทมากถึง 21 แห่ง มีพอร์ตหุ้นรวมมูลค่า 10,431,851,022 บาท โดยเป็นหุ้นในกลุ่มบริษัทอสังหาริมทรัพย์ 55.6%, ลงทุนในบริษัทกลุ่มการเงิน-ประกันภัย 16.7%, ที่พัก-ร้านอาหาร 11.1%, ศิลปะ บันเทิง นันทนาการ 5.6%, การบริหาร-การสนับสนุน 5.6% และการขายส่งและการขายปลีกการซ่อมยานยนต์ รวมถึงจักรยานยนต์ 5.6% โดยมีหุ้นทั้งหมด 20 รายการ ดังนี้\r\n\r\nบริษัท เอสซี แอสเสท คอร์ปอเรชั่น จำกัด (มหาชน) ดำเนินธุรกิจขายอสังหาริมทรัพย์เพื่อการพักอาศัยการเช่าและการดำเนินการเกี่ยวกับอสังหาริมทรัพย์",
+        "date_created": "2023-08-10T03:57:02.527Z",
+        "date_updated": "2023-08-10T03:57:02.527Z"
+    }
+},
+{
+    "model": "news.article",
+    "pk": 3,
+    "fields": {
+        "author": 1,
+        "title": "ซูมตาแตก! ทะเบียนรถบรรทุก \"ครูกายแก้ว\" รูปปั้นติดคานสะพานรัชดา ทำรถติดเช้านี้",
+        "detail": "เซียนหวยแห่ซูมตาแตก! ทะเบียนรถบรรทุกรูปปั้นครูกายแก้ว เทพเจ้าแห่งโชคลาภ หลังติดคานสะพานรัชดา ขณะเตรียมทำพิธีเบิกเนตรเย็นนี้\r\n\r\nหลังจากที่เช้าวันนี้ (9 ส.ค.66) เกิดจราจรติดขัดเป็นอย่างมาก ที่ถนนรัชดาภิเษกขาเข้า ก่อนถึงซอยรัชดาภิเษก 36 เนื่องจากเกิดเหตุรถบรรทุก \"รูปปั้นครูกายแก้ว\" ติดคานสะพานลอยคนข้าม ขณะจะนำรูปปั้นไปตั้งไว้หน้าโรงแรมบารซา รัชดา เพื่อทำพิธีเบิกเนตรเย็นนี้",
+        "date_created": "2023-08-10T03:57:27.591Z",
+        "date_updated": "2023-08-10T03:57:27.591Z"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$ORntgIpPmrHNFKDuaD0NnC$BUDvuYqUX8MTF0Mqabjg3Rmd5UJcZnxBy8iCp2JiLKk=",
+        "last_login": "2023-08-10T03:25:00.153Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "phsian.s@sskru.ac.th",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-08-10T03:24:38.842Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-08-10T03:56:36.732Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "news",
+            "article"
+        ],
+        "object_id": "1",
+        "object_repr": "สถานทูตเตือนคนไทยในเกาหลีใต้ระวัง คนร้ายขู่ฆาตกรรมเลียนแบบ ดับแล้ว 2 ศพ เจ็บเพียบ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-08-10T03:57:02.528Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "news",
+            "article"
+        ],
+        "object_id": "2",
+        "object_repr": "อุ๊งอิ๊ง แพทองธาร ชินวัตร ทายาท ทักษิณ กับพอร์ตหุ้นที่รวยระดับมโหฬาร",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-08-10T03:57:27.592Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "news",
+            "article"
+        ],
+        "object_id": "3",
+        "object_repr": "ซูมตาแตก! ทะเบียนรถบรรทุก \"ครูกายแก้ว\" รูปปั้นติดคานสะพานรัชดา ทำรถติดเช้านี้",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-08-10T04:02:00.775Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "news",
+            "author"
+        ],
+        "object_id": "1",
+        "object_repr": "พิศาล สุขขี",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-08-10T04:02:14.207Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "news",
+            "author"
+        ],
+        "object_id": "2",
+        "object_repr": "ปรีชา ไชยนะรา",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-08-10T04:32:25.447Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "news",
+            "article"
+        ],
+        "object_id": "1",
+        "object_repr": "สถานทูตเตือนคนไทยในเกาหลีใต้ระวัง คนร้ายขู่ฆาตกรรมเลียนแบบ ดับแล้ว 2 ศพ เจ็บเพียบ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Author\"]}}]"
+    }
+}
+]
