@@ -68,9 +68,9 @@ TEMPLATES = [
     },
 ]
 
-# WSGI_APPLICATION = 'press.wsgi.application'
+WSGI_APPLICATION = 'press.wsgi.application'
 
-WSGI_APPLICATION = 'press.wsgi.app'
+# WSGI_APPLICATION = 'press.wsgi.app'
 
 
 
